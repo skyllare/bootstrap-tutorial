@@ -1,23 +1,25 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
-body
-{
-    font-family: sans-serif;
+
+body {
+    font-family: Tahoma, sans-serif;
 }
-#nav-bar
-{
-    position: sticky;
-    top: 0;
-    z-index: 10;
+
+.navbar {
+    background: rgba(255, 255, 255, 0.8);
+    transition: background-color 0.3s;
 }
-.navbar
-{
-    background-image: linear-gradient(to right, #a517ba,#5f1782);
-    padding: 0 !important;
-}
+
 .navbar-nav .nav-link:hover {
     color: #007bff; 
+}
+
+.collapse.navbar-collapse {
+    margin-right: 1%;
+}
+
+.navbar-brand {
+    margin-left: 1%;
 }
